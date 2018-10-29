@@ -26,5 +26,5 @@ $person = array('Rahim', 'Karom', 'Roton', 'Rupsa', 'Monir');
 function rFilter($n){
     return $n[0] == strtoupper('r');
 }
-$newPerson = array_filter($person, 'rFilter');
+$newPerson = array_filter($person, 'rfilter');
 print_r($newPerson);
